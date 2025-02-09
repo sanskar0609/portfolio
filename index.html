@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>RESPONSIVE PERSONAL PORTFOLIO WEBSITE </title>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <!--body-->
+        <header class="header">
+            <a href="#" class="logo">Portfolio</a>
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <nav class="navbar">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">ABOUT</a>
+                <a href="#services">SERVICES</a>
+                <a href="#portfolio">PORTFOLIO</a>
+                <a href="#contact">CONTACT</a>
+            </nav>
+        </header>
+        <section class="home" id="home">
+            <div class="home-content">
+                <h3>Hello,It's Me</h3>
+                <h1>Sanskar</h1>
+                <h3>And I'm a <span class="multiple-text"></span></h3>
+                <div class="social-media">
+                    <a href="https://github.com/sanskar0609"><i class='bx bxl-github'></i></a>
+                    <a href="#"><i class='bx bxs-envelope'></i></a>
+                    <a href="#"><i class='bx bxl-instagram' ></i></a>
+                    <a href="https://www.linkedin.com/in/sanskar-sontakke-550347318/"><i class='bx bxl-linkedin-square' ></i></a>
+                </div>
+                <a href="./image/Resume - Sanskar_Sontakke.pdf" class="btn">Download CV</a>
+            </div>
+
+            <div class="home-img">
+                <img src="./image/man.png">
+            </div>
+        </section>
+        <section class="about" id="about">
+            <div class="about-img">
+                <img src="https://wallpaperaccess.com/full/1385382.jpg" alt="">
+
+                <img src="data:image/jpeg;base64,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" alt="">
+
+            </div>
+            <div class="about-content">
+                <h2 class="heading" style="padding: 20px;">About<span>Me</span></h2>
+
+                <div class="img-content">
+                <h3>Frontend Developer</h3>
+                <p>Frontend developer with experience building singlre-page web application and a knack for creating attractive user interfaces.
+                    skilled experience in javascript,HTML,CSS,PHP,BOOTSTRAP. </p>
+                 <a href="#"class="btn">Read More</a>   
+                </div>
+                <div class="img-content">
+                 <h3>Backend Developer</h3>
+                 <p>One year of building powerful backends with Spring Boot. A year of growth, learning, and creating robust applications! </p>
+                <a href="#"class="btn">Read More</a> 
+            </div>
+            </div>
+        </section>
+        <section class="services"id="services">
+            <h2 class="heading">Our<span>Services</span></h2>
+
+            <div class="services-container">
+                <div class="services-box">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Web Development</h3>
+                    <p>Motivated designer and developer
+                         with experience creating custom websites through PHP and CSS. 
+                         Strong collaboration skills and proven history of application development. HTML and JavaScript. MS Access and MySQL.</p>
+                    <a href="#"class="btn">Read More</a>
+                </div>
+        
+                <div class="services-box">
+                    <i class='bx bx-crop' ></i>
+                    <h3>UI/UX Design</h3>
+                    <p>You cannot make a good design if you do not understand people; design is made for people.</p>
+                    <a href="#"class="btn">Read More</a>
+                </div>
+            
+                <div class="services-box">
+                    <i class='bx bxl-instagram-alt' ></i>
+                    <h3>App Design</h3>
+                    <p>I'm UI/UX Designer with a great passion to my work. The main goal is to create modern, attractive and user-friendly interfaces and find creative and simple solutions for your business.
+                        </p>
+                    <a href="#"class="btn">Read More</a>
+                </div>
+            </div>
+        </section>
+        <section class="portfolio"id="portfolio">
+            <h2 class="heading">Latest<span>Project</span></h2>
+            <div class="portfolio-container">
+            
+                <div class="portfolio-box">
+                    <img src="./image/clg.jpg">
+                    <div class="portfolio-layer">
+                        <h4>clg predictor</h4>
+                        <p>college predictor for the student.</p>
+                        <a href="#"><i class='bx bx-link-external' ></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-box">
+                    <img src="./image/webngp.jpg"alt="">
+                    <div class="portfolio-layer">
+                        <h4>NGO website</h4>
+                        <p>provide ngo information</p>
+                        <a href="#"><i class='bx bx-link-external' ></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-box">
+                    <img src="image/mycafe.jpg"alt="">
+                    <div class="portfolio-layer">
+                        <h4>cafe managment </h4>
+                        <p>use for cafe bill.</p>
+                        <a href="#"><i class='bx bx-link-external' ></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact"id="contact">
+            <h2 class="heading">Contact<span>ME!</span></h2>
+            <form  action="https://formspree.io/f/xrbekzyr"
+            method="POST" name="submit-to-google-sheet">
+                <div class="input-box">
+                    <input type="text" name="Name" placeholder="Full Name" required>
+                    <input type="email" name="email" placeholder="Email Address" required>
+                </div>
+                <div class="input-box">
+                    <input type="tel" name="Mobile Number" placeholder="Mobile Number" required>
+                    <input type="text" name="Email Subject" placeholder="Email Subject" required>
+                </div>
+                <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </form>
+            
+            <span id="msg"></span>
+        </section>
+
+        <footer class="footer">
+            <div class="footer-text">
+                <p>Copyright &copy; 2025 by Sanskar | All Rights Reserved.</p>
+            </div>
+            <div class="footer-iconTop">
+                <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+            </div>
+        </footer>
+
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script src="script.js"></script>
+        
+        
+    </body>
+</html>
